@@ -1,0 +1,34 @@
+# Local artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated index and local documents
+storage/*
+!storage/.gitkeep
+data/documents/*
+!data/documents/.gitkeep
+!data/documents/sample_policy.md
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

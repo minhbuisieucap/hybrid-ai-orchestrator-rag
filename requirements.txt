@@ -1,0 +1,8 @@
+numpy==2.5.4
+rank-bm25==0.2.2
+pypdf==6.21.2
+sentence-transformers==6.2.0
+ollama==0.6.3
+openai==3.37.0
+google-genai==2.33.0
+python-dotenv==1.2.4
